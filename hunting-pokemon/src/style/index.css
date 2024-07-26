@@ -1,0 +1,9 @@
+.card {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.hunting {
+  background-color: green;
+}

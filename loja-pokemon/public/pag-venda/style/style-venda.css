@@ -1,0 +1,62 @@
+body {
+  background-image: url(../img/wallpaper.jpeg);
+  background-position: center center;
+}
+
+#offcanvasWithBothOptions {
+  width: 70%;
+}
+
+.item-escolhido{
+  display: flex;
+  position: relative;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+#form {
+  background-color: transparent;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-weight: bold;
+}
+
+.container-popup {
+  display: none;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.415);
+  z-index: 2;
+}
+
+#btn-menu {
+  border: none;
+  background-color: transparent;
+}
+
+#btn-menu i {
+  font-size: 40px;
+  color: white;
+}
+
+#popup {
+  background-color: white;
+  width: 30%;
+  height: 70%;
+  padding: 10px;
+}
+
+.close {
+  float: right;
+}
+
+.opti {
+  display: flex;
+}

@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="./style/cart.css">
+<div class="container-cart-itens">
+      <div class="item-card">
+        <div class="item-img">
+          <img src="{{this}}" alt="imagem" class="img">
+        </div>
+        <div class="info-item">
+          <h3 class="title-item">
+          </h3>
+          <div class="quant-item">
+            <input type="button" value="-" class="min">
+            <input type="number" name="" id="" class="quant" value="{{#if (lookup ../dados.quantidade @index)}}{{lookup ../dados.quantidade @index}}{{/if}}">
+            <input type="button" value="+" class="plus">
+          </div>
+          <div class="extra">
+            <div>value item</div>
+            <button class="delete">
+              <i class="material-symbols-outlined">delete_forever</i>
+            </button>
+          </div>
+        </div>
+      </div>
+  <div class="total">
+    <div style="position: fixed; background-color: aquamarine;">
+      <div style="background-color: bisque;">ola</div>
+    </div>
+  </div>
+  <a href="/">Continuar comprando</a>
+</div>

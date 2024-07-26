@@ -1,0 +1,78 @@
+<form autocomplete="off" class="container" id="form">
+  <div class="item-escolhido container mb-3">
+    <h1>Continuar compra</h1>
+    <img src="{{image}}" alt="image">
+  </div>
+  <div class="row g-1 mb-3 mt-3" style="margin-top: 1px;">
+    <div class="col-md"> 
+      <div class="form-floating">
+        <input type="text" name="nome" id="nome" class="form-control" placeholder="Nome completo">
+        <label for="nome">Nome completo</label>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="form-floating">
+        <input type="text" name="cpf" id="cpf" class="form-control" placeholder="CPF">
+        <label for="cpf">CPF</label>
+      </div>
+    </div>
+      <div class="form-floating">
+        <input type="text" name="cep" id="cep" class="form-control isInvalid" placeholder="cep">
+        <label for="cep">CEP</label>
+      </div>
+  </div>
+
+  <div class="row g-1 mb-3">
+    <div class="col-md">
+      <div class="form-floating">
+        <input type="text" name="street" id="street" class="form-control" placeholder="Rua">
+        <label for="street">Rua/Avenida</label>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="form-floating">
+        <input type="text" name="neighborhood" id="neighborhood" class="form-control" placeholder="77">
+        <label for="neighborhood">Bairro</label>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="form-floating">
+        <input type="text" class="form-control" name="number_house" id="number_house" placeholder="Número">
+        <label for="number_house">Número</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-1 mb-3">
+    <div class="col-md-2">
+      <div class="form-floating">
+        <input type="text" name="area-code" id="area-code" class="form-control" placeholder="77">
+        <label for="area-code">Código de Área</label>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="form-floating">
+        <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" autocomplete="off">
+        <label for="phone">Telefone</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-1 mb-3">
+    <div class="col-md">
+      <div class="form-floating">
+        <input type="text" class="form-control" placeholder="Escolha a forma de pagamento" id="pay-form" name="method-pay">
+        <label for="pay-form">Escolha a forma de pagamento</label>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="form-floating mb-3">
+        <input class="form-control" name="ticket" id="ticket" placeholder="Cupom">
+        <label for="ticket">Cupom</label>
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-success" id="env">Comprar</button>
+  <a href="/" class="btn btn-secondary">Voltar</a>
+</form>
+{{>_popup}}

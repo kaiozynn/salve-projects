@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Shop</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header id="top">
+        <a href="/carrinho" style="color: black; position: relative;">
+            <i class="material-symbols-outlined carrinho btn-carr">shopping_cart</i>
+            <i class="displayNone cont-item">0</i>
+        </a>
+        <h1>Bem Vindo A Loja Pokemon Dos Seus Sonhos</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="https://pokemonrevolution.net/download" target="_blank">Download</a>
+            <a href="https://pokemonrevolution.net/forum/topic/190726-kazutora-shop/" target="_blank">Forum</a>
+            <input type="checkbox" name="tema" id="tema">
+        </nav>
+    </header>
+    {{>_itens-loja}}
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/caiolove.vasco/" target="_blank">
+                        <img src="./img/logo-facebook.png" alt="logo-facebook">
+                        <span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiozynn" target="_blank">
+                        <img src="./img/github-logo.webp" alt="github-logo">
+                        <span>GitHub</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/kaio_zyn/" target="_blank">
+                        <img src="./img/logo-instagram.webp" alt="logo-instagram">
+                        <span>Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/caio-ferreira-903958243/" target="_blank">
+                        <img src="./img/logo-linkedin.png" alt="logo-linkedin">
+                        <span>Linkedin</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="./js/buy_item.js"></script>
+</html>
